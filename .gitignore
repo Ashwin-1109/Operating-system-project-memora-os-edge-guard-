@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & Temporary Files
+*.log
+llama_server.log
+
+# Large Binaries and Heavy Models (>100MB exceeds GitHub hard limit)
+# Note: Run 'python setup_edge_runtime.py' to download these automatically
+models/*.gguf
+models/*.bin
+bin/*.exe
+bin/*.dll
+bin/*.zip
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
